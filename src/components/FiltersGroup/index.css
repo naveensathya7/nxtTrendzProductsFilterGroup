@@ -1,0 +1,84 @@
+.filters-group-container {
+  margin-top: 50px;
+  align-self: flex-start;
+  font-family: 'Roboto';
+}
+.categories-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.ratings-list {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.category-heading {
+  color: #0f172a;
+  font-weight: 500;
+}
+.category-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #64748b;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.rating-button {
+  width: 80%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #64748b;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.rating-text {
+  color: #475569;
+  margin-left: 10px;
+}
+.rating-images {
+  width: 80%;
+  margin-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 8px;
+}
+.clear-filters-btn {
+  color: #0967d2;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #0967d2;
+  padding: 10px;
+}
+.ratings-list-item {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: black;
+}
